@@ -2,9 +2,9 @@
 
 ## Contents
 
-* [sort.h]() - the header file with all the libraries, prototypes for functions and data structures used in this project.
-* [print_array.c]() - function that prints an array of integers.
-* [print_list.c]() - a function that prints a list of integers.
+* [sort.h](https://github.com/j88moja-code/sorting_algorithms/blob/main/sort.h) - the header file with all the libraries, prototypes for functions and data structures used in this project.
+* [print_array.c](https://github.com/j88moja-code/sorting_algorithms/blob/main/print_array.c) - function that prints an array of integers.
+* [print_list.c](https://github.com/j88moja-code/sorting_algorithms/blob/main/print_list.c) - a function that prints a list of integers.
 
 ## ``mandatory tasks``
 
