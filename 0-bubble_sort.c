@@ -3,8 +3,8 @@
 /**
   * swap - swaps the integers in an array.
   *
-  * xp: pointer to the current int.
-  * yp: pointer to the next int.
+  * @xp: pointer to the current int.
+  * @yp: pointer to the next int.
   *
   * Return: nothing.
   */
@@ -20,8 +20,8 @@ static void swap(int *xp, int *yp)
 /**
   * bubble_sort - sorts an array of integers in ascending order.
   *
-  * array: pointer to the array of integers to be sorted.
-  * size: size of the array.
+  * @array: pointer to the array of integers to be sorted.
+  * @size: size of the array.
   *
   * Return: nothing.
   */
