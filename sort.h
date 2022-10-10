@@ -21,6 +21,7 @@ typedef enum bool
 	false = 0,
 	true
 } bool;
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -30,9 +31,10 @@ typedef enum bool
  */
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	const int n;
+
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 /* PROTOTYPES */
