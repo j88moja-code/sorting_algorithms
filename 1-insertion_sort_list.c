@@ -25,7 +25,7 @@ static void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 
 /**
   * insertion_sort_list - sorts a linked list of ints using the insertion
-  sort algorithm.
+  * sort algorithm.
   *
   * @list: double pointer to the head of a linked list of integers.
   *
