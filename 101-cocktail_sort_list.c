@@ -11,7 +11,8 @@
  * Return: nothing.
  */
 
-static void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker)
+static void swap_node_ahead(listint_t **list, listint_t **tail,
+		listint_t **shaker)
 {
 	listint_t *tmp = (*shaker)->next;
 
@@ -35,13 +36,14 @@ static void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shak
  *                    list of integers with the node behind it.
  *
  * @list: double pointer to the head of a doubly-linked list of integers
- * @tail: double pointer to the tail of the doubly-linked list. 
- * @shaker: double pointer to the current swapping node of the cocktail shaker algo.
+ * @tail: double pointer to the tail of the doubly-linked list.
+ * @shaker: pointer to the current swapping node of the cocktail shaker algo.
  *
  * Return: nothing.
  */
 
-static void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker)
+static void swap_node_behind(listint_t **list, listint_t **tail,
+		listint_t **shaker)
 {
 	listint_t *tmp = (*shaker)->prev;
 
